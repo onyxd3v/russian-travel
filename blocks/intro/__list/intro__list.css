@@ -1,0 +1,50 @@
+.intro__list {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #fff;
+  max-width: 690px;
+  width: 100%;
+  list-style: none;
+  padding: 33px 0 0 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 320px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
