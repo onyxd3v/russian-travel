@@ -1,0 +1,33 @@
+.header__logo {
+  max-width: 176px;
+}
+
+@media screen and (min-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .header__logo {
+    max-width: 156px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    max-width: 176px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__logo {
+    max-width: 176px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__logo {
+    max-width: 176px;
+  }
+}

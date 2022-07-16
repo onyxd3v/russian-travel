@@ -1,0 +1,33 @@
+.lead__figure {
+  margin: 0;
+}
+
+@media screen and (min-width: 320px) {
+  .lead__figure {
+    padding: 40px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .lead__figure {
+    padding: 48px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead__figure {
+    padding: 56px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__figure {
+    padding: 56px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__figure {
+    padding: 64px 0 0 0;
+  }
+}
