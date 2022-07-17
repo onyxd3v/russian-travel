@@ -4,12 +4,14 @@
   line-height: 76px;
   color: #fff;
   margin: 0;
+  max-width: 460px;
 }
 
 @media screen and (min-width: 320px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    padding: 0 16px;
   }
 }
 
@@ -17,6 +19,7 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    padding: 0 16px;
   }
 }
 
@@ -24,6 +27,7 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    padding: 0;
   }
 }
 
@@ -31,6 +35,7 @@
   .place__title {
     font-size: 72px;
     line-height: 76px;
+
   }
 }
 
@@ -38,5 +43,6 @@
   .place__title {
     font-size: 72px;
     line-height: 76px;
+
   }
 }

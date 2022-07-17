@@ -3,17 +3,23 @@
   border: 1px solid darkblue;
 }
 
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 320px) {
   .place {
     gap: 32px;
     grid-template-columns: 1fr;
-
+    margin-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 425px) {
   .place {
     grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 50px;
   }
 }
 
@@ -21,6 +27,7 @@
   .place {
     gap: 48px 28px;
     grid-template-columns: 340px auto;
+    margin-bottom: 73px;
   }
 }
 
@@ -28,6 +35,7 @@
   .place {
     gap: 48px 32px;
     grid-template-columns: 440px auto;
+    margin-bottom: 80px;
   }
 }
 
@@ -35,5 +43,6 @@
   .place {
     gap: 48px 40px;
     grid-template-columns: 460px auto;
+    margin-bottom: 80px;
   }
 }
