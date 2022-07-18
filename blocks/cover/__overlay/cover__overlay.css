@@ -1,4 +1,4 @@
-.cover__link {
+.cover__overlay {
   text-decoration: none;
   width: 100%;
   height: 100%;
@@ -7,11 +7,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  cursor: pointer;
   background-size: cover;
 }
 
-.cover__link:before {
+.cover__overlay:before {
   content: '';
   position: absolute;
   width: 100%;
@@ -20,10 +19,11 @@
   opacity: 0.3;
 }
 
-.cover__link:hover {
+.cover__overlay:hover {
   background-color: #2A2C2F;
   opacity: 0.8;
   transition: .4s;
+  cursor: pointer;
 }
 
 
