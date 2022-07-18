@@ -10,7 +10,7 @@
 - Grid,
 - Медиа-запросы,
 - Методология БЭМ.
-- 
+
 ## Ссылка на проект 
 
 [Link](https://onyxd3v.github.io/russian-travel/)
