@@ -6,3 +6,9 @@
   color: #fff;
   padding-top: 12px;
 }
+
+.place__website:hover {
+  opacity: 0.8;
+  transition: .4s;
+  cursor: pointer;
+}
