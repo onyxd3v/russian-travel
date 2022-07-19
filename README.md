@@ -11,6 +11,4 @@
 - Медиа-запросы,
 - Методология БЭМ.
 
-## Ссылка на проект 
-
-[Link](https://onyxd3v.github.io/russian-travel/)
+[Ссылка на проект ](https://onyxd3v.github.io/russian-travel/)
