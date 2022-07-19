@@ -5,6 +5,7 @@
   letter-spacing: 2px;
   color: #aaa;
   margin: 0;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 320px) {
@@ -15,34 +16,8 @@
   }
 }
 
-@media screen and (min-width: 425px) {
-  .place__url-heading {
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 2px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .place__url-heading {
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 2px;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .place__url-heading {
-    font-size: 12px;
     line-height: 170%;
-    letter-spacing: 2px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .place__url-heading {
-    font-size: 12px;
-    line-height: 170%;
-    letter-spacing: 2px;
   }
 }

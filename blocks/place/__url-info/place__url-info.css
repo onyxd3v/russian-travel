@@ -1,23 +1,17 @@
-.place__link {
+.place__url-info {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
 @media screen and (min-width: 320px) {
-  .place__link {
-    padding: 0 16px;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  .place__link {
+  .place__url-info {
     padding: 0 16px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .place__link {
+  .place__url-info {
     padding: 0;
   }
 }

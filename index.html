@@ -18,11 +18,10 @@
 
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Карта России">
-
-  <div class="header__lang">
-    <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-    <a class="header__lang-link" href="#">En</a>
-  </div>
+    <ul class="header__lang">
+      <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+      <li><a class="header__lang-link" href="#">En</a></li>
+    </ul>
   </header>
 
 
@@ -50,11 +49,11 @@
   <h2 class="intro__title">Чего мы там не видели?</h2>
   <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
   <ul class="intro__list">
-    <li><strong>Часовых поясов</strong> 11</li>
-    <li><strong>Объектов природного наследия ЮНЕСКО</strong> 12</li>
-    <li><strong>Объектов культурного наследия ЮНЕСКО</strong> 16</li>
-    <li><strong>Природных заповедников</strong> 105</li>
-    <li><strong>Аэропортов</strong> 241</li>
+    <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+    <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+    <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+    <li><span class="intro__span-accent">Природных заповедников</span> 105</li>
+    <li><span class="intro__span-accent">Аэропортов</span> 241</li>
   </ul>
 
 </section>
@@ -88,8 +87,8 @@
 
     <li class="place">
       <h2 class="place__title">Куршская коса</h2>
-      <div class="place__link">
-        <p class="place__url-heading">URL</p>
+      <div class="place__url-info">
+        <p class="place__url-heading">url</p>
         <a
         class="place__website"
         href="http://park-kosa.ru"
@@ -104,8 +103,8 @@
 
     <li class="place">
       <h2 class="place__title">Кольский</h2>
-      <div class="place__link">
-        <p class="place__url-heading">URL</p>
+      <div class="place__url-info">
+        <p class="place__url-heading">url</p>
         <a
         class="place__website"
         href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -122,8 +121,8 @@
 
     <li class="place">
       <h2 class="place__title">Алтай</h2>
-      <div class="place__link">
-        <p class="place__url-heading">URL</p>
+      <div class="place__url-info">
+        <p class="place__url-heading">url</p>
         <a
         class="place__website"
         href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
@@ -139,8 +138,8 @@
 
     <li class="place">
       <h2 class="place__title">Зимний Байкал</h2>
-      <div class="place__link">
-        <p class="place__url-heading">URL</p>
+      <div class="place__url-info">
+        <p class="place__url-heading">url</p>
         <a
         class="place__website"
         href="https://vk.com/baikalmile"
@@ -157,8 +156,8 @@
 
     <li class="place">
       <h2 class="place__title">Карелия</h2>
-      <div class="place__link">
-        <p class="place__url-heading">URL</p>
+      <div class="place__url-info">
+        <p class="place__url-heading">url</p>
         <a
         class="place__website"
         href="http://vodlozero.ru/"
@@ -179,14 +178,12 @@
 <!-- Секция - cover-->
 
 <section class="cover">
-  <div class="cover__background">
     <a class="cover__overlay"
     href="https://stampsy.com/na-elektrichkakh-do-baikala"
     target="_blank">
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
     </a>
-  </div>
 </section>
 
 <!-- Конец секции - cover-->
@@ -224,7 +221,7 @@
      target="_blank"
      >Путешествия</a>
   </nav>
-  <p class="footer__info">© 2020. Сергей Наумов</p>
+  <p class="footer__info">© 2022. Сергей Наумов</p>
 
 </footer>
 

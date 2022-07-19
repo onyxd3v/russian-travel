@@ -8,3 +8,21 @@
   color: #fff;
 }
 
+@media screen and (min-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    padding-left: 0;
+  }
+}
+

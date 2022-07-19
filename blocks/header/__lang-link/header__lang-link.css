@@ -4,7 +4,6 @@
   font-size: 24px;
   line-height: 28px;
   color: #fff;
-  padding-right: 18px;
 }
 
 .header__lang-link:hover {
@@ -13,11 +12,6 @@
   cursor: pointer;
 }
 
-.header__lang-link:last-of-type {
-  padding-right: 0;
-}
-
-
 @media screen and (min-width: 320px) {
   .header__lang-link {
     font-size: 18px;
@@ -25,28 +19,7 @@
   }
 }
 
-@media screen and (min-width: 425px) {
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 20px;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
   .header__lang-link {
     font-size: 24px;
     line-height: 28px;

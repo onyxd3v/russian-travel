@@ -8,10 +8,6 @@
   display: flex;
 }
 
-.footer__link:first-of-type {
-  padding-left: 0;
-}
-
 .footer__link:hover {
   opacity: 0.8;
   transition: .4s;
@@ -25,14 +21,9 @@
     font-size: 24px;
     line-height: 24px;
   }
-}
 
-@media screen and (min-width: 425px) {
-  .footer__link {
-    padding-left: 0;
-    padding-top: 32px;
-    font-size: 24px;
-    line-height: 24px;
+  .footer__link:first-of-type {
+    padding-top: 0;
   }
 }
 
@@ -43,18 +34,9 @@
     font-size: 16px;
     line-height: 18px;
   }
-}
 
-@media screen and (min-width: 1024px) {
-  .footer__link {
-    font-size: 16px;
-    line-height: 18px;
+  .footer__link:first-of-type {
+    padding-left: 0;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .footer__link {
-    font-size: 16px;
-    line-height: 18px;
-  }
-}

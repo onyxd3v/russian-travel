@@ -20,31 +20,3 @@
     line-height: 18px;
   }
 }
-
-@media screen and (min-width: 425px) {
-  .intro__list {
-    font-size: 12px;
-    line-height: 18px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .intro__list {
-    font-size: 12px;
-    line-height: 18px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .intro__list {
-    font-size: 12px;
-    line-height: 18px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .intro__list {
-    font-size: 12px;
-    line-height: 18px;
-  }
-}

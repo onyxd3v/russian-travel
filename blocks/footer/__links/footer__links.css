@@ -13,28 +13,7 @@
   }
 }
 
-@media screen and (min-width: 425px) {
-  .footer__links {
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .footer__links {
-    flex-direction: row;
-
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer__links {
-    flex-direction: row;
-  }
-}
-
-@media screen and (min-width: 1280px) {
   .footer__links {
     flex-direction: row;
   }

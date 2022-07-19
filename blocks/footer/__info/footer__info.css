@@ -13,32 +13,10 @@
   }
 }
 
-@media screen and (min-width: 425px) {
-  .footer__info {
-    font-size: 14px;
-    line-height: 14px;
-    padding-top: 48px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .footer__info {
     font-size: 14px;
     line-height: 16px;
     padding-top: 0;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer__info {
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer__info {
-    font-size: 14px;
-    line-height: 16px;
   }
 }

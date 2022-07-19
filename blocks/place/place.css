@@ -14,14 +14,6 @@
   }
 }
 
-@media screen and (min-width: 425px) {
-  .place {
-    grid-template-columns: 1fr;
-    gap: 32px;
-    margin-bottom: 50px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .place {
     gap: 48px 28px;

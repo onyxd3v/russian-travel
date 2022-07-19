@@ -19,31 +19,9 @@
   }
 }
 
-@media screen and (min-width: 425px) {
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
     line-height: 163%;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .place__paragraph {
-    font-size: 18px;
-    line-height: 163%;
-    }
-  }
-
